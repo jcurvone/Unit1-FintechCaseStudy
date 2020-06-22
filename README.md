@@ -1,1 +1,1 @@
-# Unit1-FintechCaseStudy
+Please open the file **Unit 1 Assignment - Fintech Case Study**. To practice I did the case study in the jupyter notebook instead of uploading to a readme file. 
