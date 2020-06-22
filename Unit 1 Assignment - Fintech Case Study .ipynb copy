@@ -1,0 +1,344 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Consumer Credit Underwriting Industry"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Overview"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Most known as FICO, our credit score was supposedly created to tell institutions how a certain individual manages their personal finance or how well they \"deal with money\" so that these institutions can make credit-related decisions on the possibilities of the individual repaying the loan on time. The FICO score given will determine the financial risk of the individual that will influence the accessibility and cost for him/her to borrow money of finance a purchase. Therefore, heavily impacting his ability to grow financially and acquire new assets. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "That being said, one would think that the consumer credit rating industry is a fair and well distributed landscape with many players and access to everyone. Yet, it's one of the heaviest concentrated industries where only 3 credit bureaus control over 90% of the market. With the industry in the hands of Equifax, TransUnion and Experian, there is doubts whether they use all information available or only the ones that they will easily have access to in a low cost operation. \n",
+    "\n",
+    "Highly concentrated industries, such as the consumer credit rating, is where millions of dollars are spent in research and development but no disprution is created, mainly because the 3 main players have no reason to disrupt an industry that they have perfectly divided among them and can control or profit from it the way it suits them best. This landscape although has a high barrier for new entrants creates a perfect landscape for Fintechs to enter through the back door. In this case study we will analyze how one fintech startup is doing it."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "![alt text](myfico.png \"SOURCE\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "###### Image Source: https://www.myfico.com/credit-education/credit-scores"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## The Fintech Startup"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "> \"What autopilot is for an airplane, a decision engine can be for a lender.\" "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Source: https://lendingfront.com/blog/industry/underwriting-the-new-underwriting-technology-evaluating-innovations-in-data-use-and-credit-decisioning/"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### *ZEST AI*"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Founded in May 2009 by Douglas Merrill, a former Google CIO and VP of Engineering, Zest AI came from an idea to use Google-like algorithms to make consumer credit more transparent, available to more people and significantly less expensive. In 2020, the startup reached close to 200 employees and has already received 217 million dollars in funding from venture firms such as Baidu, Fortress Investment Group (SoftBank) and the Founders Fund, which has Peter Thiel as partner."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Zest AI role in the fintech industry is to help big borrowers to basically have more loan approvals,therefore increasing revenue, without adding more risk to the institutions' portfolio. By using data scrapping to feed machine learning models Zest is able to include more data and sophisticated math to reduce loan's default rates signficantly of portfolios. With such tool in hand, the startup focuses on large players in the banking and borrowing industry tapping into a market that reached its record high of $138 billion dollars borrowed last year. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "The solution powered by Zest AI is unique due to the company's ability to provide the full set of services required for a lending decision on an application. It's an unfair advantage to compare the ZEST AI solution that follows each compliance policy to the cost and time an institution would have to spend to create such solutions. The chart below illustrates the complex parts of the decision process."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "![alt text](solution.png \"SOURCE\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "###### Image Source: https://www.zest.ai/solutions"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### *The technology behind*"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "According to Zest AI's website, the startup enables lenders across the globe to deploy powerful, compliant credit models siwftly and easily in suite that is able to scrap and categorize data, output a decision and be compliant with the enourmous amount of policies that regulate consumer lending. How does this technology works?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Ensembled machine learning models is the answer. For Zest AI more specifically, Deep Stacking. Such model, uses a non linear ensemble function to take both the data and the model scores as its own inputs to produce a decision. As the model builds submodels before processing in a single neural network, it allows the tool to select the correct balance to weight the decision in each submodel according to specific variables set by the financial institution. The unique setup of Zest AI's deep stacking allows the company to uncover deep relationships between these submodels which learns when to apply each submodel based on its strengths.  "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "![alt text](deepstacking.png \"SOURCE\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "###### Source: https://www.zest.ai/article/many-heads-are-better-than-one-making-the-case-for-ensemble-learning"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "As any other AI model, deep stacking also has its challenges. But ZEST AI instead of having these challenges as a setback it uses to leverage the startup's business model and sell it's product. \n",
+    "The three main challenges ensembled models like deep stacking have are: \n",
+    "\n",
+    "**Engineering Complexity**: even with a very well funded team of developers, a financial instituion would take years to break through such complexity in techinical dependencies, runtime and model verification. \n",
+    "\n",
+    "**Explainability**: most models will explain to you what its driving the score but ZEST AI is able to provide an explanation for a model-based decision. \n",
+    "\n",
+    "**Compliance**: the enourms amount of scrutiny these decisions goes through to comply with consumer lending regulatory laws is absurd and ZEST AI automates a large part of this process."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "The technologies mentioned above constitute the product that ZEST AI sells, which is called ZAML, Zest Automated Machine Learning platform. The product is sold with an emphasis in three components that we reviewed and are summarized below: "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "![alt text](components.png \"SOURCE\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "###### Source: https://www.businesswire.com/news/home/20170214005357/en/ZestFinance-Introduces-Machine-Learning-Platform-Underwrite-Millennials"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### *Landscape and Competition*"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Credit underwriting is the core of every lending business but the traditional methods are labor instensive and with a significant data gathering burden for both the lender and borrower. The summary of what composes a good lending business has not yet changed but all companies in this domain are looking to achieve more efficiency and effectiveness in credit underwriting. \n",
+    "\n",
+    "While in the recent past a business or person needed to prove a solid financial track record to get credit, new data sources are becoming more reliable in such decision making processes. Innovations such as the integrations of APIs that give to the underwriter the ability to pull data from different sources is a major trend that has impacted the industry across the board. Other than credit bureaus and bank recors, data points gathered through lien searches, social networks, online transaction records and cloud based accounting systems are reaching the credit underwriters through these APIs and providing a closer look at the borrower. Data points on a borrower used to make a decision has increased in the industry overall, in ZEST AI specifically, the startup estimates to use over 10 times more data than the traditional methods its clients were using before. \n",
+    "\n",
+    "The scenario of the competition ZEST AI finds itself in is tricky to understand. While its clients can significantly increase profits while reducing risk by using ZAML, they can become its strongest competitor if they decide to put the money and time into it. Considering companies such as Rocket Mortgage, SoFi and Zillow that all have a very strong customer base, let alone banks, ZEST AI is forced to always have its AI model at the forefront of innovation and effectiveness. Otherwise, the ROI for its clients to create their own models would be something they would be willing to take the risk. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "###### **Research Source:** https://lendingfront.com/blog/industry/underwriting-the-new-underwriting-technology-evaluating-innovations-in-data-use-and-credit-decisioning/"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Impact in the industry"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "![alt text](discover.png \"SOURCE\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Zest AI has already proved your point in the market with ZAML and its still only tapping into the credit underwritting market. Discover Financial Services, a leading direct banking and payments company with $90.5 billion dollars in loans, approached Zest in 2018 with the goal to improve its credit scoring to reduce risk and at the same time increase approvals and market share. After a succesful trial, Discover deployed its first credit under writing Machine Learning model into production in mid-2019. Zest capability allowed Discover to personalize the model to its preferences on the applicants' behaviors. For example, a history of discount store shopping would increase the applicant's chance of being approved for a personal loan while on the other hand calls from Skype or untracked phones would lower the chances. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "In another example, Zest worked side by side with Akbank, the third largest private bank in Turkey. The bank had millons of potential younger customers with limited credit histories. Althouhg a credit track record was almost nonexistent, the bank had a gold mine of information about it's customers' spending habits and finances. \n",
+    "According to Zest, they were able to reduce form 6 to 3 months Akbank's timeline to create, validate and test its models before going into production. The startup also boosted the models by adjusting them to look at 26 times more data than Akbank's linear regression models used before. Akbank deployed the machine learning models across five of it's product lines achieving 100% increase in \"no-credit history applicants\" approval rate and a 45% reduction in non-perfoming loans.  "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "As credit underwriting is a fairly new application for AI, the industry still does not have standardized indicators to measure success. However as seen in both examples above, the two metrics that standed out are portfolio risk reduction and approval rate increase or market share. Zest AI models are showing to be significant superior than any tradional method currently used by its client and we are still to see any competitor with such capability. \n",
+    "In the chart below, there is scientific evidence of how Zest's ensemble model produces the highest AUC, which is the % of times it ranks a good applicant higher than a bad applicant, when compared to other models."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "![alt_text](models.png)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#### Sources:\n",
+    "- https://cc285df930.nxcli.net/themes/user/site/default/asset/img/common/Case_Study_-_Consumer_Credit_-_Safer_Portfolio_Growth_-_Discover.pdf\n",
+    "- https://zest.ai/pdf/akbank-case-study-using-ml-to-find-more-customers.pdf\n",
+    "- https://www.zest.ai/article/many-heads-are-better-than-one-making-the-case-for-ensemble-learning"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Recommendations"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "As a standardized method that I use on my personal evaluations of each business, I focus on the three potential risks and weaknesses that a business model presents and how the business can mitigate them to continue to move forward and grow within the industry. These recommendations can include not only new products or services but also new procedures, how they can benifit from these changes and what additional development would be required. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "The greatest potential risk for Zest AI business model is its own clients developing their in-house technology, which would make the costs for the startup's services unnecessary. A way out for this issue, would be if Zest were able to integrate its clients' databases so the models use not only the data that a single bank has but data sourced from all Zest's clients. It's unthinkable of banks sharing their data with competitors, but this would not be a raw data sharing, they would only use to better predict outcomes in their models leaving the actual information encrypted. Such solution would require an extensive work for data protection but on the long run it can be the tool to power Zest A's business."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Secondly, there is a very good chance that in the future the ZAML technology will become commoditized. As more and more institutions understand the power of AI they will incorporate such capabilities in its businesses and what Zest does today will become the new normal for credit underwriting. Zest AI will be obligated to incorporate and bundle new services in order to survive. The startup should look to new methods of underwriting, such as including cryptocurrencies in the credit rating industry. A practice that would revolutionize the industry but that will keep the startup in the forefront of innovation as crypto currencies earn more credibility every day. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Lastly, the access to personal data for credit underwriting. As the world understands how companies are using big data to explore new markets and profit, regulation will shed a light into the misuse or abuse of personal information by large tech companies. In the near future, there is a risk that such data Zest uses today will be confidential and would only be allowed to use under the individual consent. Altough fair and correct, such regulation present a serious threat to the AI developed by Zest with the limitation of data points input. The company needs to be ahead of the problem and develop predictive models that match the individual data with publicly available indicators to rate its credit, instead of comparing to other millions of individuals to then give a decision. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "The chart below presents the benefit Zest AI's current technology provides to its clients. Such benefit has an extreme potential to be adopted industry wide and by mitigating the risks mentioned above Zest will position itself to be the main player in the adoption of AI for credit underwriting."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "![alt_text](risk.png)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "##### Source: https://zest.ai/pdf/one-sheet-de-risk-your-portfolio-with-zaml.pdf"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
